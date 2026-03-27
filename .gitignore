@@ -1,0 +1,30 @@
+# JetBrains / CLion
+.idea/
+
+# CMake build output
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Ninja
+.ninja_deps
+.ninja_log
+*.ninja
+
+# Embedded build artifacts
+*.o
+*.obj
+*.d
+*.a
+*.elf
+*.map
+*.hex
+*.bin
+*.lst
+
+# OS
+Thumbs.db
+.DS_Store
+
